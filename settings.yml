@@ -1,0 +1,8 @@
+---
+api: '3.0.0-ALPHA10'
+replace:
+  - regex: \)(.*){
+    replace: ') {'
+  - regex: '\->chunk'
+    replace: '->level'
+...
